@@ -39,8 +39,9 @@ Download from [Kaggle](https://www.kaggle.com/datasets/atharvaingle/crop-recomme
 
 ## 🤖 Machine Learning Pipeline
 ### 1. Preprocessing
-```python
-# Example: Scaling & Encoding
-from sklearn.preprocessing import StandardScaler, LabelEncoder
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
+### 2. Model Training
+### 3. Evaluation
+Model	Accuracy
+Random Forest	99.5%
+Logistic Reg.	95.2%
+
