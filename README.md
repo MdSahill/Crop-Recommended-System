@@ -41,7 +41,7 @@ Download from [Kaggle](https://www.kaggle.com/datasets/atharvaingle/crop-recomme
 ### 1. Preprocessing
 ### 2. Model Training
 ### 3. Evaluation
-**Model:** 'Random Forest	99.5%'
-**Accuracy:** '99.2%'
+**Model:** `Random Forest`
+**Accuracy:** `99.2%`
 
 
