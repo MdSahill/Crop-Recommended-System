@@ -48,17 +48,17 @@ Train the Random Forest using `ScikitLearn`
 
 
 ## 🚀 How to Run
-Clone the repo:
+### Clone the repo:
 ```python
 git clone https://github.com/yourusername/Crop-Recommendation-System.git
 ```
-# Install dependencies:
+#### Install dependencies:
 ```python
 pip install -r requirements.txt
 ```
-# Run the Flask app:
+### Run the Flask app:
 ```python
 python app.py
 ```
-# Open 
+### Open 
 http://localhost:5000.
