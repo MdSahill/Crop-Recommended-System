@@ -41,6 +41,7 @@ Download from [Kaggle](https://www.kaggle.com/datasets/atharvaingle/crop-recomme
 ### 1. Preprocessing
 **Example:** `Scaling & Encoding`
 ### 2. Model Training
+Train the Random Forest using `ScikitLearn`
 ### 3. Evaluation
 **Model:** `Random Forest`<br>
 **Accuracy:** `99.2%`
