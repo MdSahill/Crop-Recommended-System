@@ -55,14 +55,23 @@ def predict():
         # Scale the input
         input_data = scaler.transform([[nitrogen, phosphorus, potassium, temperature, humidity, ph, rainfall]])
         
-        # Make prediction
-        prediction = model.predict(input_data)
-        predicted_crop = crop_labels[prediction[0]]
+        # Get probabilities for all crops
+        probabilities = model.predict_proba(input_data)[0]
+        
+        # Pair crop names with their probabilities
+        crop_probs = list(zip(crop_labels, probabilities))
+        
+        # Sort by probability (descending)
+        crop_probs_sorted = sorted(crop_probs, key=lambda x: x[1], reverse=True)
+        
+        # Get the top recommended crop
+        predicted_crop = crop_probs_sorted[0][0]
         crop_desc = crop_descriptions.get(predicted_crop.lower(), 'No description available.')
         
         return render_template('result.html', 
                              prediction=predicted_crop,
                              description=crop_desc,
+                             crop_probs=crop_probs_sorted,  # Pass all probabilities to template
                              nitrogen=nitrogen,
                              phosphorus=phosphorus,
                              potassium=potassium,
@@ -70,8 +79,6 @@ def predict():
                              humidity=humidity,
                              ph=ph,
                              rainfall=rainfall)
-        
-    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
