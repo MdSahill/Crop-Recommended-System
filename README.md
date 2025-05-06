@@ -63,6 +63,8 @@ python app.py
 http://localhost:5000.
 
 ## 🎥 Demo
+![image](https://github.com/user-attachments/assets/aba19fc9-26d5-4c2c-953c-237f330b44ba)
+![image](https://github.com/user-attachments/assets/b523c794-abea-4b47-a2d0-119a5c769548)
 ### Project Link
 https://crop-recommended-system-101.onrender.com
 ## 🤝 Contributing
