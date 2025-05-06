@@ -62,6 +62,9 @@ python app.py
 #### Open 
 http://localhost:5000.
 
+## 🎥 Demo
+### Project Link
+https://crop-recommended-system-101.onrender.com
 ## 🤝 Contributing
 ### Feel free to:
 🔹 Open issues for bugs/feature requests.<br>
