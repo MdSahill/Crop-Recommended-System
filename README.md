@@ -39,6 +39,7 @@ Download from [Kaggle](https://www.kaggle.com/datasets/atharvaingle/crop-recomme
 
 ## 🤖 Machine Learning Pipeline
 ### 1. Preprocessing
+**Example:** `Scaling & Encoding`
 ### 2. Model Training
 ### 3. Evaluation
 **Model:** `Random Forest`<br>
