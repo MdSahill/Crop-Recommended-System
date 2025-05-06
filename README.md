@@ -61,3 +61,8 @@ python app.py
 ```
 #### Open 
 http://localhost:5000.
+
+## 🤝 Contributing
+### Feel free to:
+🔹 Open issues for bugs/feature requests.
+🔹 Submit pull requests for improvements.
