@@ -49,7 +49,7 @@ Train the Random Forest using `ScikitLearn`
 ## 🚀 How to Run
 #### Clone the repo:
 ```python
-git clone https://github.com/yourusername/Crop-Recommendation-System.git
+git clone https://github.com/MdSahill/Crop-Recommendation-System.git
 ```
 #### Install dependencies:
 ```python
