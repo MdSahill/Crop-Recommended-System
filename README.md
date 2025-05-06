@@ -64,5 +64,5 @@ http://localhost:5000.
 
 ## 🤝 Contributing
 ### Feel free to:
-🔹 Open issues for bugs/feature requests.
+🔹 Open issues for bugs/feature requests.<br>
 🔹 Submit pull requests for improvements.
