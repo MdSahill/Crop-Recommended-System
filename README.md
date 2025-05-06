@@ -13,7 +13,6 @@
 - [Dataset](#-dataset)
 - [ML Pipeline](#-machine-learning-pipeline)
 - [How to Run](#-how-to-run)
-- [Deployment](#-deployment)
 - [Demo](#-demo)
 - [Contributing](#-contributing)
 
