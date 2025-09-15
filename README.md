@@ -66,7 +66,7 @@ http://localhost:5000.
 ![Screenshot 2025-05-06 182516](https://github.com/user-attachments/assets/2cd70edb-89d6-4790-82ac-0ffb6d9c5b34)
 ![image](https://github.com/user-attachments/assets/b523c794-abea-4b47-a2d0-119a5c769548)
 ### Project Link
-https://crop-recommended-system-101.onrender.com
+https://croprecommendedsys-decubrdwa0cch9gj.centralindia-01.azurewebsites.net/
 ## 🤝 Contributing
 ### Feel free to:
 🔹 Open issues for bugs/feature requests.<br>
